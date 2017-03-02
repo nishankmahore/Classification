@@ -2,7 +2,6 @@ import os
 import json
 import glob
 import sys
-import nltk.classify
 from textblob.classifiers import NaiveBayesClassifier
 
 with open('trained_data.json', 'r') as training:
